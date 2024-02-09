@@ -69,7 +69,7 @@ void search(){      //modified wrt algorithm
     if(ptr->info == key)
         printf("%d found",key);
 }
-void preorder(struct node *ptr){        //bug
+void preorder(struct node *ptr){
     if(ptr!= NULL){
         printf("%d  ",ptr->info);
         preorder(ptr->lcptr);
